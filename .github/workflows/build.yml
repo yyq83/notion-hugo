@@ -20,7 +20,7 @@ jobs:
         run: notion-md/script.py --static static/images --content content/posts --url /notion-hugo-blog/images --db ${{ secrets.NOTION_DB_ID }} --key ${{ secrets.NOTION_API_KEY }} --hugo
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
