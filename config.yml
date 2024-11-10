@@ -2,7 +2,9 @@ baseURL: "https://yyq83.github.io/notion-hugo"
 title: Blog template
 theme: PaperMod
 
-paginate: 5
+pagination:
+  pagerSize: 5  # 替换 paginate
+
 enableInlineShortcodes: true
 enableRobotsTXT: true
 enableEmoji: true
@@ -40,34 +42,18 @@ params:
   disableSpecial1stPost: true
   ShowCodeCopyButtons: true
   ShowToc: true
-
   mainSections:
     - posts
 
   profileMode:
     enabled: false
     title: Blog template
-    # imageUrl: "avatar.png"
-    # imageTitle: ""
-    # imageWidth: 120
-    # imageHeight: 120
     subtitle: "Blog made from Notion with Hugo and GitHub Pages"
 
+  # 将 socialIcons 移动到 params 下
   socialIcons:
     - name: github
       url: "https://github.com/Malsius/blog-template"
-
-  # label:
-  #   text: ""
-  #   icon: "avatar.png"
-  #   iconHeight: 30
-  
-  # assets:
-  #   favicon: "favicons/favicon.ico"
-  #   favicon16x16:  "favicons/favicon-16x16.png"
-  #   favicon32x32:  "favicons/favicon-32x32.png"
-  #   apple_touch_icon:  "favicons/apple-touch-icon.png"
-  #   safari_pinned_tab:  "favicons/favicon.ico"
 
   fuseOpts:
     isCaseSensitive: false
