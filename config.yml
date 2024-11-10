@@ -1,4 +1,4 @@
-baseURL: "https://malsius.github.io/notion-ghpages"
+baseURL: "https://yyq83.github.io/notion-hugo-blog"
 title: Blog template
 theme: PaperMod
 
@@ -35,7 +35,7 @@ params:
   env: production
   description: "Blog made from Notion with Hugo, hosted on GitHub Pages"
   keywords: [blog, hugo, notion, github]
-  defaultTheme: dark
+  defaultTheme: auto
   disableThemeToggle: true
   disableSpecial1stPost: true
   ShowCodeCopyButtons: true
